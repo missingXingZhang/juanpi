@@ -36,6 +36,7 @@ export default {
 	},
 	methods: {
 		goto(index){
+			console.log(index)
 			this.selected = index
 		}
 	}
@@ -46,18 +47,18 @@ export default {
 <style lang="stylus" scoped>
 .footer
 	width 100%
-	height 50px
-	background-color #eee
-	position absolute
+	height 1rem
+	background-color #fff
+	position fixed
 	bottom 0
 	left 0
 	display flex
 	.card
 		width 25%
 		height 100%
-		font-size 12px
+		font-size 0.24rem
 		text-align center
-		line-height 50px
+		line-height 1rem
 		display flex
 		flex-direction column
 		justify-content center
@@ -69,6 +70,6 @@ export default {
 			width 100%
 			height 50%
 		img 
-			width 20px
-			height 20px
+			width 0.4rem
+			height 0.4rem
 </style>

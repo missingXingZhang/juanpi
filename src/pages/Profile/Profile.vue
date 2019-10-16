@@ -12,7 +12,7 @@
       <div class="profileHeader-login">
         <a href="javascript:;">注册</a>
         <span class="line"></span>
-        <a href="javascript:;">登录</a>
+        <a href="javascript:;" @click="$router.replace('/login')">登录</a>
       </div>
     </div>
     <!-- 我的订单 -->
@@ -75,17 +75,22 @@
       <a href="javascript:;">客户端</a>
       <a href="javascript:;">电脑版</a>
     </div>
+    <!-- 底部导航栏Tab -->
+      <Footer />
   </div>
 </template>
 <script>
-export default {};
+// 引入Footer组件
+import Footer from '../../components/Footer/Footer.vue'
+export default {
+  // 注册组件
+  components:{
+    Footer
+  }
+}
 </script>
-<style lang='stylus'	rel='stylesheet/stylus'>
+<style lang='stylus'	rel='stylesheet/stylus' scoped>
 @import './images/iconfont/iconfont.css'
-*
-  margin 0
-  padding 0
-  text-decoration none 
 a 
   color black
 #profileContainer
@@ -190,9 +195,10 @@ a
         border-bottom 0.01rem solid #cccccc
   .foot-nav
     width 100%
-    padding 0.25rem 0
+    padding 0 0 1.1rem 0
     display flex
     text-align center
+
     a
       font-size 0.24rem
       flex 1
