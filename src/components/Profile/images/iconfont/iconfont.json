@@ -1,0 +1,44 @@
+{
+  "id": "1461013",
+  "name": "1",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1151174",
+      "name": "daishouhuo",
+      "font_class": "daishouhuo",
+      "unicode": "e702",
+      "unicode_decimal": 59138
+    },
+    {
+      "icon_id": "1389394",
+      "name": "退款售后",
+      "font_class": "tuikuanshouhou",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "1633863",
+      "name": "daifukuan",
+      "font_class": "daifukuan",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    },
+    {
+      "icon_id": "2154299",
+      "name": "待成团",
+      "font_class": "daichengtuan",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "8763000",
+      "name": "fanhui",
+      "font_class": "return",
+      "unicode": "e6a1",
+      "unicode_decimal": 59041
+    }
+  ]
+}
