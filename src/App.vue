@@ -1,14 +1,18 @@
 <template>
   <div id="app">
-    <Profile/>
+    <Profile />
   </div>
 </template>
 
 <script>
-// 引入Home组件
-import Home from './components/Home/Home';
+import Home from './pages/Home/Home'
 // 引入Profile组件
-import Profile from './components/Profile/Profile.vue'
+import Profile from './pages/Profile/Profile.vue'
+import Vue from 'vue'
+import { Swipe, SwipeItem } from 'mint-ui'
+// 注册轮播图全局组件
+Vue.component(Swipe.name, Swipe)
+Vue.component(SwipeItem.name, SwipeItem)
 export default {
   name: 'App',
   components: {

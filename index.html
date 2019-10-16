@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport"
     content="width=device-width,initial-scale=0.5,maximum-scale=0.5,minimum-scale=0.5 user-scalable=no">
   <!--解决移动端点击事件0.3延迟问题: 使用fastclick库-->
   <script src="https://as.alipayobjects.com/g/component/fastclick/1.0.6/fastclick.js"></script>
-  <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
-  <script src="./static/js/rem.js" type="text/javascript" charset="utf-8"></script>
   <script>
     if ('addEventListener' in document) {
       document.addEventListener('DOMContentLoaded', function () {
@@ -16,12 +13,16 @@
       }, false)
     }
   </script>
+  <!-- 引入JQ -->
+  <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+  <!-- 引入rem适配，1rem = 100px -->
+  <script src="./static/js/rem.js" type="text/javascript" charset="utf-8"></script>
   <title>卷皮网</title>
+  <link rel="stylesheet" href="src/common/css/reset.css">
 </head>
 
 <body>
   <div id="app"></div>
-  <!-- built files will be auto injected -->
 </body>
 
 </html>
